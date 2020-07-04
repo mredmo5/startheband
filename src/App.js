@@ -1,25 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Layout from './hoc/Layout/Layout';
+import NavigationItems from './components/Navigation/NavigationItems/NavigationItems';
+import CarouselItem from './components/Carousel/Carousel';
+import Footer from './components/Footer/Footer';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Layout>
+        <NavigationItems />
+        <p>This is an Item</p>
+        <CarouselItem />
+        <h1>Hello this is a test</h1>
+        <Footer />
+    </Layout>   
   );
 }
 
