@@ -1,20 +1,24 @@
 import React from 'react';
 import Aux from '../../hoc/Auxiliary/Auxiliary';
-import classes from './SocialMediaBar.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import styles from './SocialMediaBar.module.css';
+import { FaFacebook, FaLinkedin, FaYoutube, FaInstagram} from 'react-icons/fa';
 
 const socialMediaBar = () => (
     <Aux>
-        <div className={classes.SocialMediaBar}>
+        <div className={styles.SocialMediaBar}>
             <h1>Follow The Band!!</h1>
         </div>
-        <div className={classes.SocialMediaBar}>
-            <nav>
-                <navitem>
-                    <a href='/'><FontAwesomeIcon icon={faCoffee} /></a>
-                </navitem>
-            </nav>
+        <div className={styles.SocialMediaBar}>
+            
+            
+                    <a href='/'><FaFacebook/></a>
+                
+                    <a href='/'><FaInstagram /></a>
+              
+                    <a href='/'><FaYoutube /></a>
+               
+                    <a href='/'><FaLinkedin /></a>
+              
         </div>
     </Aux>
 

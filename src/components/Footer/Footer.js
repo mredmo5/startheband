@@ -1,27 +1,25 @@
 import React from 'react';
 import Aux from '../../hoc/Auxiliary/Auxiliary';
 import SocialMediaBar from '../../components/SocialMedia/SocialMediaBar';
-import classes from './Footer.css';
+import styles from './Footer.module.css';
 
 const footer = () => (
     <Aux >
-        <div className={classes.FooterComp}>
-            <div className={classes.FooterComp}>Hello!</div>
+        <div className={styles.Footer}>
         <SocialMediaBar />
-            <nav>
-                <navitem>
-                    <a href='/'>Home</a>
-                </navitem>
-                <navitem>
-                    <a href='/'>Booking</a>
-                </navitem>
-                <navitem>
-                    <a href='/'>Requests</a>
-                </navitem>
-                <navitem>
-                    <a href='/'>TIPS</a>
-                </navitem>
-            </nav>
+            <div>   
+                <a href='/'>Home</a>
+               
+               <a href='/'>Booking</a>
+         
+               <a href='/'>Requests</a>
+          
+               <a href='/'>TIPS</a>
+
+            </div>
+              
+                   
+              
         </div>
     </Aux>
 

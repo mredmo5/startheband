@@ -1,0 +1,32 @@
+.Tour {
+    
+    color: white;
+    margin: 10%;
+    margin-top: 0;
+}
+
+.TourItems {
+    margin: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top: 2px solid black;
+}
+
+.TourItem {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+@media (min-width: 650px) {
+    .Tour {
+        width: 75%;
+        margin: auto;
+        padding-top: 25px;
+    }
+}

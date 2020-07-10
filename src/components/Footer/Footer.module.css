@@ -1,0 +1,18 @@
+.Footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+   
+    margin-top: 30px;
+}
+
+.Footer a {
+ color: white;
+ text-decoration: none;
+ margin: auto 20px;
+}
+
+.Footer a:hover {
+    color: greenyellow;
+}

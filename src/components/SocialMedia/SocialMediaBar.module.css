@@ -1,0 +1,14 @@
+.SocialMediaBar {
+    color: white;
+    align-content: center;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.SocialMediaBar a {
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+

@@ -1,18 +1,20 @@
 import React from 'react'
 import {Carousel} from 'react-bootstrap';
-import pic1 from '../../assets/images/pic1.jpg';
-import pic2 from '../../assets/images/pic2.jpg';
-import pic3 from '../../assets/images/pic3.jpg';
-import classes from "./Carousel.css";
+import star1 from '../../assets/images/star1.jpg';
+import star5 from '../../assets/images/star5.jpg';
+import star6 from '../../assets/images/star6.jpg';
+
  
 const carouselItem = () => (
 
+<div className='container'>
 
-<Carousel className="container">
+
+<Carousel>
   <Carousel.Item>
     <img
-      className={"d-block w-100 h-75"}
-      src={pic1}
+      className={"d-block w-100 h-50"}
+      src={star1}
       alt="First slide"
     />
     <Carousel.Caption>
@@ -23,8 +25,8 @@ const carouselItem = () => (
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={pic2}
-      alt="Third slide"
+      src={star5}
+      alt="Second slide"
     />
 
     <Carousel.Caption>
@@ -35,7 +37,7 @@ const carouselItem = () => (
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={pic3}
+      src={star6}
       alt="Third slide"
     />
 
@@ -45,7 +47,7 @@ const carouselItem = () => (
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
-
+</div>
 )
    
   export default carouselItem
